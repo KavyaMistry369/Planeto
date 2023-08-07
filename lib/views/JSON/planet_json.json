@@ -1,0 +1,50 @@
+[
+  {
+    "name":"Mercury",
+    "type":"Terrestrial",
+    "image":"https://www.pngmart.com/files/22/Mercury-PNG-HD-Isolated.png",
+    "description":"Mercury is the first planet from the Sun and the smallest planet in the Solar System. It is a terrestrial planet with a heavily cratered surface due to the planet having no geological activity and an extremely tenuous atmosphere."
+  },
+  {
+    "name":"Venus",
+    "type":"Terrestrial",
+    "image":"https://www.pngmart.com/files/22/Venus-PNG-Clipart.png",
+    "description":"Venus is the second planet from the Sun. It is a rocky planet with the densest atmosphere of all the rocky bodies in the Solar System, and the only one with a mass and size that is close to that of its orbital neighbour Earth"
+  },
+  {
+    "name":"Earth",
+    "type":"Terrestrial",
+    "image":"https://i.pinimg.com/originals/11/3d/93/113d937e06fcdd28172766336578c87d.png",
+    "description":"Earth is the third planet from the Sun and the only astronomical object known where life developed and found habitability. This is enabled by Earth being a water world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its global ocean, spanning 70.8% of Earth's surface."
+  },
+  {
+    "name":"Mars",
+    "type":"Terrestrial",
+    "image":"https://www.pngall.com/wp-content/uploads/13/Mars-PNG-Picture.png",
+    "description":"Mars is the fourth planet and the furthest terrestrial planet from the Sun. The reddish color of its surface is due to finely grained iron(III) oxide dust in the soil, giving it the nickname \"the Red Planet\". Mars's radius is second smallest among the planets in the Solar System at 3,389.5 km."
+  },
+  {
+    "name":"Jupiter",
+    "type":"Gas Giants",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/e/e1/Jupiter_%28transparent%29.png",
+    "description":"Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, and slightly less than one one-thousandth the mass of the Sun"
+  },
+  {
+    "name":"Saturn",
+    "type":"Gas Giants",
+    "image":"https://assets.stickpng.com/images/580b585b2edbce24c47b270d.png",
+    "description":"Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It has only one-eighth the average density of Earth, but is over 95 times more massive."
+  },
+  {
+    "name":"Uranus",
+    "type":"Gas Giants",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Transparent_Uranus.png/640px-Transparent_Uranus.png",
+    "description": "Uranus is the seventh planet from the Sun and is a gaseous cyan ice giant. Most of the planet is made out of water, ammonia, and methane in a supercritical phase of matter, which in astronomy is called 'ice' or volatiles."
+  },
+  {
+    "name":"Neptune",
+    "type":"Gas Giants",
+    "image":"https://static.vecteezy.com/system/resources/thumbnails/020/922/023/small/isolated-realistic-neptune-illustration-png.png",
+    "description":"Neptune is the eighth planet from the Sun and the farthest known planet in the Solar System. It is the fourth-largest planet in the Solar System by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus."
+  }
+]
