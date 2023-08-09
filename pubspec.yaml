@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   provider:
   model_viewer_plus: ^1.6.1
+  carousel_slider:
+  google_fonts:
 
 dev_dependencies:
   flutter_test:

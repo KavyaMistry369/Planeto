@@ -20,7 +20,7 @@ class Planets extends ChangeNotifier{
   load_my_json()async{
     String res= await rootBundle.loadString("lib/views/JSON/planet_json.json");
     List allData=jsonDecode(res);
-    All_Planet=allData.map((e) => Planet_Modals.fromMap(data: e)).toList();
+    All_Planet=allData.map((e) => Planet_Modals.fromMap(Data: e)).toList();
     notifyListeners();
   }
 

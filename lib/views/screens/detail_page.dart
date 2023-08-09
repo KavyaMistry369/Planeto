@@ -2,6 +2,10 @@ import 'dart:math';
 
 import 'package:animation/controllers/planet_provider.dart';
 import 'package:animation/utils/route_uils.dart';
+import 'package:animation/views/screens/Galleries.dart';
+import 'package:animation/views/screens/Numbers.dart';
+import 'package:animation/views/screens/depth_page.dart';
+import 'package:animation/views/screens/overview.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -13,9 +17,12 @@ class Details_Page extends StatefulWidget {
 }
 
 class _Details_PageState extends State<Details_Page>
-    with SingleTickerProviderStateMixin {
+    with TickerProviderStateMixin {
+  late TabController T_controller;
   late AnimationController a_controller;
   late Animation<double> animation;
+  late Animation opacity;
+  late Animation position;
 
   List<String> image = [
     "lib/views/assets/mercury.gif",
@@ -41,92 +48,51 @@ class _Details_PageState extends State<Details_Page>
         curve: Curves.easeIn,
       ),
     );
+    opacity = Tween(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(parent: a_controller, curve: Interval(0.0, 0.2)),
+    );
 
-    a_controller.repeat();
+    position = Tween(begin: 0.0, end: 1.0).animate(
+        CurvedAnimation(parent: a_controller, curve: Interval(0.2, 1.0)));
+
+    // a_controller.repeat();
+    a_controller.forward();
+    T_controller = TabController(length: 4, vsync: this);
   }
 
   @override
   Widget build(BuildContext context) {
-    int index = ModalRoute.of(context)!.settings.arguments as int;
+
     return Consumer<Planets>(builder: (context, p, _) {
       return Scaffold(
-        body: Center(
-          child: SingleChildScrollView(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                RotationTransition(
-                  turns: Tween<double>(begin: 0, end: pi * 2)
-                      .animate(a_controller),
-                  child: Stack(
-                    alignment: Alignment.center,
-                    children: [
-                      Container(
-                        height: 250,
-                        width: 250,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          border: Border.all(color: Colors.white, width: 5),
-                        ),
-                        alignment: Alignment.center,
-                        child: Image.asset(
-                          "lib/views/assets/sun.gif",
-                          width: 100,
-                        ),
-                      ),
-                      SizedBox(
-                        height: 350,
-                        child: Column(
-                          children: [
-                            Image.asset(
-                              "${image[index]}",
-                              width: 100,
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(
-                  height: 20,
-                ),
-                const SizedBox(
-                  height: 20,
-                ),
-                Card(
-                  child: Container(
-                    padding: EdgeInsets.all(15),
-                    height: 400,
-                    width: 350,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        Text(
-                          "${p.All_Planet[index].name}",
-                          style: TextStyle(
-                              fontSize: 25, fontWeight: FontWeight.bold),
-                        ),
-                        Text("${p.All_Planet[index].type}",
-                            style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.w500)),
-                        Text("${p.All_Planet[index].description}",
-                            style: TextStyle(
-                                fontSize: 18, fontWeight: FontWeight.normal)),
-                      ],
-                    ),
-                  ),
-                )
-              ],
+        appBar: AppBar(
+          bottom: TabBar(
+              tabs: [
+            Tab(
+              text: "Overview",
             ),
+            Tab(
+              text: "In Depth",
+            ),
+            Tab(
+              text: "Numbers",
+            ),
+            Tab(
+              text: "Galleries",
+            ),
+          ],
+            controller: T_controller,
           ),
         ),
-        floatingActionButton: FloatingActionButton(onPressed: (){
-          Navigator.of(context).pushNamed(Myroutes.model,arguments: index);
-        },child: Icon(Icons.circle),),
+        body: TabBarView(
+          controller: T_controller,
+          children: [
+            Overview(),
+            InDepth(),
+            Number(),
+            Gallery(),
+          ],
+        )
       );
     });
   }
