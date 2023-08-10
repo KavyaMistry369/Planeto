@@ -1,10 +1,8 @@
 import 'dart:math';
-
 import 'package:animation/controllers/planet_provider.dart';
 import 'package:animation/utils/route_uils.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class Home_Page extends StatefulWidget {
@@ -70,9 +68,12 @@ class _Home_PageState extends State<Home_Page> with TickerProviderStateMixin {
                                            },
                                            child: RotationTransition(
                                                turns: animation,
-                                               child: Image.network(
-                                                 "${p.All_Planet[index].image}",
-                                                 width: 300,
+                                               child: Hero(
+                                                 tag: index,
+                                                 child: Image.network(
+                                                   "${p.All_Planet[index].image}",
+                                                   width: 300,
+                                                 ),
                                                )))),
                 ), options: CarouselOptions(
                   autoPlay: true,
@@ -80,12 +81,9 @@ class _Home_PageState extends State<Home_Page> with TickerProviderStateMixin {
                   autoPlayCurve: Curves.linear
                 ),),
                 SizedBox(height: 300,),
-                RotationTransition(
-                  turns: animation,
-                  child: Transform.scale(
-                    scale: 2,
-                      child: Image.asset("lib/views/assets/sun.gif")),
-                ),
+                Transform.scale(
+                  scale: 2.5,
+                    child: Image.asset("lib/views/assets/sun.gif")),
               ],
             ),
           ],

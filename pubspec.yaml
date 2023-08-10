@@ -39,6 +39,7 @@ dependencies:
   model_viewer_plus: ^1.6.1
   carousel_slider:
   google_fonts:
+  slide_to_act_reborn: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -68,7 +69,16 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
       - lib/views/JSON/planet_json.json
+      - lib/views/JSON/planet_img_json.json
       - lib/views/assets/
+      - lib/views/assets/mercury/
+      - lib/views/assets/venus/
+      - lib/views/assets/earth/
+      - lib/views/assets/mars/
+      - lib/views/assets/jupiter/
+      - lib/views/assets/saturn/
+      - lib/views/assets/uranus/
+      - lib/views/assets/neptune/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

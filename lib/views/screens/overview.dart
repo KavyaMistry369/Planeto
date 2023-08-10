@@ -84,9 +84,10 @@ class _OverviewState extends State<Overview> with TickerProviderStateMixin{
                           height: 20,
                         ),
                         const SizedBox(
-                          height: 20,
+                          height: 170,
                         ),
                         Stack(
+                          alignment: Alignment.topCenter,
                           children: [
                             Positioned(
                               child: Card(
@@ -127,6 +128,11 @@ class _OverviewState extends State<Overview> with TickerProviderStateMixin{
                   ),
                 ),
               ),
+              Positioned(
+                left: 100,
+                  child: Hero(
+                    tag: index,
+                      child: Image.network("${p.All_Planet[index].image}",width: 200,))),
             ],
           ),
           floatingActionButton: FloatingActionButton(

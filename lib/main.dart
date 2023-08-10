@@ -8,6 +8,7 @@ import 'package:animation/views/screens/detail_page.dart';
 import 'package:animation/views/screens/home_page.dart';
 import 'package:animation/views/screens/overview.dart';
 import 'package:animation/views/screens/planet_model.dart';
+import 'package:animation/views/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       routes: {
-        '/': (context) => Home_Page(),
+        '/': (context) => Intro_page(),
+        Myroutes.home:(context) => Home_Page(),
         Myroutes.details: (context) => Details_Page(),
         Myroutes.model: (context) => model_page(),
         Myroutes.planet: (context) => Planet_Model(),
