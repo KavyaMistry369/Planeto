@@ -1,5 +1,3 @@
-![3](https://github.com/KavyaMistry369/animation_final/assets/130814792/0065b486-06fc-43fb-a183-955511098592)# Project Animator
-
 Project Definition: Galaxy Planets (Animator)
 
 Project Description:
@@ -55,6 +53,13 @@ Detail Screen for Each Planet: Each planet has a dedicated detail screen that pr
 comprehensive information about the celestial body. Users can explore detailed descriptions,
 view high-quality images, and learn fascinating facts about each planet, enabling an educational
 and entertaining journey through the galaxy.
+
+
+
+
+https://github.com/KavyaMistry369/animation_final/assets/130814792/6899e38d-9d7e-48f7-b133-f3f49cfef5ae
+
+
 
 ![1](https://github.com/KavyaMistry369/animation_final/assets/130814792/231cea7e-6401-41bb-a5ca-6376d9a9cb56)
 ![2](https://github.com/KavyaMistry369/animation_final/assets/130814792/ab16ddd4-c60f-43d3-8b38-8859d55912a9)
