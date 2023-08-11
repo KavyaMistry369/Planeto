@@ -65,9 +65,13 @@ special features of this app are it includes a 3d model of the sun and planets a
 https://github.com/KavyaMistry369/animation_final/assets/130814792/6899e38d-9d7e-48f7-b133-f3f49cfef5ae
 
 
+<img src="https://github.com/KavyaMistry369/animation_final/assets/130814792/231cea7e-6401-41bb-a5ca-6376d9a9cb56" width="350px">
+<img src="https://github.com/KavyaMistry369/animation_final/assets/130814792/ab16ddd4-c60f-43d3-8b38-8859d55912a9" width="350px">
 
-![1](https://github.com/KavyaMistry369/animation_final/assets/130814792/231cea7e-6401-41bb-a5ca-6376d9a9cb56)
-![2](https://github.com/KavyaMistry369/animation_final/assets/130814792/ab16ddd4-c60f-43d3-8b38-8859d55912a9)
+
+
+
+![2]()
 ![3](https://github.com/KavyaMistry369/animation_final/assets/130814792/9ed12ad5-d463-41a6-a090-2bec402ccf76)
 ![4](https://github.com/KavyaMistry369/animation_final/assets/130814792/bf8623e8-da20-4f83-9b8f-d0fd27d7985a)
 ![5](https://github.com/KavyaMistry369/animation_final/assets/130814792/e3164cdb-cc81-409b-80c2-87d941cb158d)
