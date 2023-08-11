@@ -54,7 +54,7 @@ comprehensive information about the celestial body. Users can explore detailed d
 view high-quality images, and learn fascinating facts about each planet, enabling an educational
 and entertaining journey through the galaxy.
 
-
+special features of this app are it includes a 3d model of the sun and planets and a 3d model of each planet.
 
 
 https://github.com/KavyaMistry369/animation_final/assets/130814792/6899e38d-9d7e-48f7-b133-f3f49cfef5ae
