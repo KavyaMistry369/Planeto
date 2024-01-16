@@ -67,18 +67,14 @@ https://github.com/KavyaMistry369/animation_final/assets/130814792/6899e38d-9d7e
 
 <img src="https://github.com/KavyaMistry369/animation_final/assets/130814792/231cea7e-6401-41bb-a5ca-6376d9a9cb56" width="350px">
 <img src="https://github.com/KavyaMistry369/animation_final/assets/130814792/ab16ddd4-c60f-43d3-8b38-8859d55912a9" width="350px">
+<img src="https://github.com/KavyaMistry369/animation_final/assets/130814792/9ed12ad5-d463-41a6-a090-2bec402ccf76" width="350px">
+<img src="https://github.com/KavyaMistry369/animation_final/assets/130814792/bf8623e8-da20-4f83-9b8f-d0fd27d7985a" width="350px">
+<img src="https://github.com/KavyaMistry369/animation_final/assets/130814792/e3164cdb-cc81-409b-80c2-87d941cb158d" width="350px">
+<img src="https://github.com/KavyaMistry369/animation_final/assets/130814792/a2d9180f-05ef-4dcc-bf71-8bef8983d3f7" width="350px">
+<img src="https://github.com/KavyaMistry369/animation_final/assets/130814792/0141afaf-637a-4d7c-b99c-7fb3bde64951" width="350px">
+<img src="https://github.com/KavyaMistry369/animation_final/assets/130814792/d74b2102-f45b-4bd2-b4a3-47f35d3a3a9a" width="350px">
+<img src="https://github.com/KavyaMistry369/animation_final/assets/130814792/492937cf-aee0-4283-93af-ce7113ed574c" width="350px">
 
-
-
-
-![2]()
-![3](https://github.com/KavyaMistry369/animation_final/assets/130814792/9ed12ad5-d463-41a6-a090-2bec402ccf76)
-![4](https://github.com/KavyaMistry369/animation_final/assets/130814792/bf8623e8-da20-4f83-9b8f-d0fd27d7985a)
-![5](https://github.com/KavyaMistry369/animation_final/assets/130814792/e3164cdb-cc81-409b-80c2-87d941cb158d)
-![6](https://github.com/KavyaMistry369/animation_final/assets/130814792/a2d9180f-05ef-4dcc-bf71-8bef8983d3f7)
-![7](https://github.com/KavyaMistry369/animation_final/assets/130814792/0141afaf-637a-4d7c-b99c-7fb3bde64951)
-![8](https://github.com/KavyaMistry369/animation_final/assets/130814792/d74b2102-f45b-4bd2-b4a3-47f35d3a3a9a)
-![9](https://github.com/KavyaMistry369/animation_final/assets/130814792/492937cf-aee0-4283-93af-ce7113ed574c)
 
 
 
